@@ -1,0 +1,32 @@
+.campus {
+  text-align: center;
+  margin: 80px auto;
+  /* width: 90%; */
+}
+
+.campus__inner {
+}
+
+.campus__gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.campus__gallery img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px){
+  .campus__gallery{
+    flex-wrap: wrap;
+  }
+  .campus__gallery img {
+    width: 49%;
+    margin-bottom: 10px;
+}
+}

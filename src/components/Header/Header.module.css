@@ -1,0 +1,14 @@
+.header {
+  padding: 14px 0;
+  /* background-color: var(--color-bcg-nav); */
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.accent{
+background-color: var(--color-bcg-accent);
+transition: all ease-in-out .3s;
+}
